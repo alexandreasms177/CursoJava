@@ -1,7 +1,5 @@
 package secao02;
 
-import java.time.format.SignStyle;
-
 public class variavel {
 
     public static void main(String[] args) {
