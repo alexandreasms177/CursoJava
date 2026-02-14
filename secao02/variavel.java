@@ -6,12 +6,19 @@ public class variavel {
         
         String nome = "Alexandre";
 
-        System.out.println("nome:"+ nome);
-
         int idade = 19;
 
-        System.out.println("idade:"+ idade);
+        float altura = 1.80f;
 
+        boolean estudando = true;
+
+        System.out.println("nome:"+ nome);
+
+        System.out.println("idade:"+ idade);
+        
+        System.out.println("altura:"+ String.format("%.2f", altura));
+        
+        System.out.println("estudando:"+ estudando);
     }
 
 }
