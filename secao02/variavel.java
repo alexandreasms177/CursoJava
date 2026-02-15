@@ -92,7 +92,7 @@ public class variavel {
 
         //7- long
 
-        long populacao = 8000000000L;
+        long populacao = 8_000_000_000L;
 
         System.out.println(populacao);
 
