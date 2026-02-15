@@ -31,13 +31,10 @@ public class MediaAluno {
 
         
         if (media>=7) {
-            System.out.println("Aluno aprovado");
+            System.out.println("Status: Aluno aprovado");
         } else {
-            System.out.println("Aluno reprovado");
+            System.out.println("Status: Aluno reprovado");
         }
-        
-        
-        
     }
     
 }
