@@ -166,13 +166,29 @@ public class variavel {
 
         System.out.println(valorInt);
 
-        //casting de cahr para int
+        //casting de char para int
 
         char letra2 = 'A';
 
         int codigoAscii = (int) letra2;
 
         System.out.println(codigoAscii);
+
+        //12- constantes
+
+        final int DIAS_DA_SEMANA = 7;
+
+        System.out.println("dias da semana:" + DIAS_DA_SEMANA);
+
+        //13- var
+
+        var z =10;
+
+        System.out.println(z);
+
+        z = 5;
+
+        System.out.println(z);
     }
 
 }
