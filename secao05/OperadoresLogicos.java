@@ -20,9 +20,17 @@ public class OperadoresLogicos {
         boolean ehMembro = true;
 
         if (idade2 >16 || ehMembro) {
-            System.out.println("entrada");
+            System.out.println("entrada permitida");
         }else{
             System.out.println("entrada negada");
         }
+
+        //3- not 
+
+        System.out.println(estarChovendo);
+        System.out.println(!estarChovendo);
+
+        System.out.println(estarChovendo || !temGuardachuva);
+        System.out.println(!(estarChovendo || !temGuardachuva));
     }
 }
